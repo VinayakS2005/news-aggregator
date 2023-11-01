@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@500&display=swap');
 #logo{
     border-radius: 50px;
 height:80px;
@@ -5,3 +7,37 @@ width:180px;
 max-width:200px;
 max-height: 100px;
 }
+#searchlogo{
+    background-image:url('images.jpeg/search.png');
+    background-size:cover;
+    background-position:center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 40px;
+    width:40px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top:194px;
+    left:185px;
+   }
+   /*how to make the logo green when hovering*/
+   #searchlogo:hover {
+    background-color: rgb(18, 156, 126);
+   }
+   #news-input{
+    height:35px;
+    margin-top:auto;
+    border-radius: 50px;
+    border:darkslateblue none;
+    background-color: rgb(41, 39, 58);
+    color:white;
+    border: 5px;
+   }
+ /*This is how we change the color of the placeholder in the search bar*/
+  input::placeholder{
+    color:rgb(216, 215, 230);
+    font-family:'Kanit';
+    text-align:left;
+   }
