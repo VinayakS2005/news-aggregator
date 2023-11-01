@@ -39,5 +39,5 @@ max-height: 100px;
   input::placeholder{
     color:rgb(216, 215, 230);
     font-family:'Kanit';
-    text-align:left;
+    text-align:center;
    }
