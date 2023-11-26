@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Aggregator</title>
     <link href='style.css' rel="stylesheet">
@@ -11,12 +12,12 @@
     <nav>
         <!--This is the main div part for the logo along with the search bar and other sub classes-->
         <div class="main-nav container flex">
-            <a href="#">
+            <a href="#" onclick="reload()" class="company-logo">
                 <img src="images.jpeg/Screenshot 2023-10-31 114340.png" alt = 'company logo' id="logo">
             </a>
             <div class="nav-links">
                 <ul class="flex">
-                    <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('ipl')">Sports</li>
+                    <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</li>
                     <li class="hover-link nav-item" id="entertainment" onclick="onNavItemClick('entertainment')">Entertainment</li>
                     <li class="hover-link nav-item" id="worldnews" onclick="onNavItemClick('worldnews')">World News</li>
                     <li class="hover-link nav-item" id="technology" onclick="onNavItemClick('technology')">Technology</li>
