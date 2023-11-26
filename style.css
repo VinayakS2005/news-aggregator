@@ -110,7 +110,15 @@ nav {
 .search-button:hover {
     background-color: var(--accent-color-dark);
 }
-
+.login{
+    background-color: red;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: : 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
 main {
     padding-block: 20px;
     margin-top: 80px;
